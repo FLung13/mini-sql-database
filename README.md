@@ -45,6 +45,7 @@ Rather than focusing on full SQL compliance, the project emphasizes how database
 ## System Architecture
 
 The database engine is structured into distinct components that mirror real-world database systems:
+```
 User Input (SQL-like query)
 │
 ▼
@@ -58,7 +59,7 @@ User Input (SQL-like query)
 │
 ▼
 [ Result Output ]
-
+```
 
 ### Component Breakdown
 
@@ -77,12 +78,13 @@ User Input (SQL-like query)
 ---
 
 ## Project Structure
+```
 .
 ├── includes/ # Core database engine implementation
 ├── main.cpp # Entry point / command interface
 ├── CMakeLists.txt # Build configuration
 └── README.md
-
+```
 ---
 
 ## Demo
@@ -97,19 +99,21 @@ SELECT * FROM students;
 ```
 
 ## Sample Output
+```
 +--------+-----+-------+
 | name   | age | major |
 +--------+-----+-------+
 | Alice  | 20  | CS    |
 | Bob    | 22  | Math  |
 +--------+-----+-------+
-
+```
 ## Getting Started
 Prerequisites
   - C++ compiler (g++ or clang++)
   - CMake
 
 ## Build and Run
+```
 git clone https://github.com/fredylung/mini-sql-database.git
 cd mini-sql-database
 
@@ -119,7 +123,7 @@ cmake ..
 make
 
 ./main
-
+```
 ## Design Decisions
   - Binary storage over text files
   - Improves performance and mimics real database storage strategies.
@@ -150,10 +154,10 @@ make
   - Knowledge of parsing, execution pipelines, and system architecture
 ### Author
 
-##Fredy Lung
-##Software Developer
+## Fredy Lung
+## Software Developer
 
-###Portfolio
+### Portfolio
 
 This project is part of my software engineering portfolio.
 Explore more projects here:
