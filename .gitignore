@@ -1,0 +1,41 @@
+# Git / editor
+.git/
+.vscode/
+.vs/
+.DS_Store
+Thumbs.db
+
+# Build output
+build/
+bin/
+out/
+cmake-build-debug/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Compiled files
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
+
+# Test files (excluded per your request)
+_tests/
+
+# Generated database/output files
+*.bin
+*_fields.txt
+databases.txt
+from.bin
+_selected_table*.bin
+_selected_table*_fields.txt
+
+# Coverage files
+*.gcda
+*.gcno
+*.gcov
