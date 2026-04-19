@@ -152,10 +152,11 @@ make
   - Ability to design and implement complex systems in C++
   - Experience with file-based data persistence
   - Knowledge of parsing, execution pipelines, and system architecture
-### Author
 
-## Fredy Lung
-## Software Developer
+## Author
+
+Fredy Lung\
+Software Developer
 
 ### Portfolio
 
